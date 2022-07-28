@@ -98,6 +98,4 @@ export const NoItensCard = styled.div`
         height: 30vh;
     }
 
-   
-
 `

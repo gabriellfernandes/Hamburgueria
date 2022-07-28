@@ -36,7 +36,7 @@ function App() {
       <div className='conteiner-conteudo'>
         {
           loading ? 
-          <div>Carregando...</div>
+            <></>
           :
           <ShowProdutcs itens={filteredProducts} filtred={filtred} setCardItens={setCardItens} cardItens={cardItens} addPrice={addPrice}/>
         

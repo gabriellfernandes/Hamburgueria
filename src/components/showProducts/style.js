@@ -26,7 +26,7 @@ export const UlStyle = styled.ul`
     }
 
     li img{
-        width: 160px;
+        width: 180px;
         margin-bottom: 10px;
         
     }
