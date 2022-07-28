@@ -8,6 +8,7 @@ export const TotalValueStyled = styled.div`
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-bottom: 4rem;
     div{
         display: flex;
         justify-content: space-between;
@@ -37,6 +38,10 @@ export const TotalValueStyled = styled.div`
         padding: 10px 80px;
         border: none;
         font-size: 1rem;
+    }
+
+    @media screen and (max-width: 400px){
+        width: 285px;
     }
 
 `

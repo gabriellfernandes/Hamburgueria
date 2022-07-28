@@ -12,6 +12,10 @@ export const TitleCart = styled.div`
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     width: 80%;
+
+    @media screen and (max-width: 400px){
+        width: 79%;
+    }
 `
 
 
@@ -66,6 +70,10 @@ export const CartItensUl = styled.ul`
         text-align: center;
     }
 
+    @media screen and (max-width: 400px){
+        width: 285px;
+    }
+
 `
 
 
@@ -89,4 +97,7 @@ export const NoItensCard = styled.div`
     @media screen and (max-width: 768px){
         height: 30vh;
     }
+
+   
+
 `
