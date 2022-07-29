@@ -22,7 +22,12 @@ export const UlStyle = styled.ul`
         padding: 15px;
         padding-top: 0;
         border-radius: 16px;
-        
+    }
+
+    li:hover{
+        transition: all 0.5s;
+        background-color: #F5F5F5;
+        border: 1px solid black;
     }
 
     li img{
@@ -59,6 +64,13 @@ export const UlStyle = styled.ul`
         margin-left: 4px;
         padding: 6px 10px;
         border: none;
+    }
+
+    li button:hover{
+        transition: all 0.5s;
+        background-color: #fff;
+        color: #27AE60;
+
     }
 
     @media (max-width: 1024px) {

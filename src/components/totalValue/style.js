@@ -40,6 +40,12 @@ export const TotalValueStyled = styled.div`
         font-size: 1rem;
     }
 
+    button:hover{
+        transition: all 0.5s;
+        color: #E0E0E0;
+        background-color: #828282;
+    }
+
     @media screen and (max-width: 400px){
         width: 285px;
     }

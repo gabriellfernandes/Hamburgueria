@@ -1,6 +1,6 @@
 import TotalValue from "../totalValue"
 import { CartItensUl, NoItensCard, TitleCart } from "./style"
-
+import { toast } from "react-toastify"
 function CardItens({cardItens, setCardItens , price, removePrice, setPrice}){
     function removeItens(item){
         setCardItens((oldItens) => oldItens.filter((elem) => elem.id !== item.id))
@@ -27,7 +27,8 @@ function CardItens({cardItens, setCardItens , price, removePrice, setPrice}){
                                         </div> 
                                         
                                         <button onClick={() => {removeItens(elem)
-                                        removePrice(elem.price)}}>Remover item</button>
+                                        removePrice(elem.price)
+                                        toast.success("Item removido")}}>Remover item</button>
                                 </li>)})
                             }
                             

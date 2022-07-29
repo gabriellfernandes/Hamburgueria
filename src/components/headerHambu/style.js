@@ -46,6 +46,12 @@ export const HeaderStyle = styled.header`
         border: none;
     }
 
+    button:hover{
+        transition: all 0.5s;
+        color: #E0E0E0;
+        background-color: #828282;
+    }
+
     @media (max-width: 768px) {
         height: 140px;
         flex-direction: column;

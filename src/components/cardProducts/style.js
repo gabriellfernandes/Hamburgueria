@@ -28,6 +28,18 @@ export const CartItensUl = styled.ul`
     overflow-y: scroll;
     overflow-x: hidden;
     background-color: #F5F5F5;
+    &&::-webkit-scrollbar {
+        width: 7px;
+    }
+    &&::-webkit-scrollbar-thumb {
+        background: #93d7af;
+        border-radius: 10px;
+        border-radius: 8px;
+    }
+    &&::-webkit-scrollbar-track {
+        border-radius: 8px;
+        box-shadow: inset 0 0 5px #a39a9a;
+    }
 
     li{
         display: flex;
@@ -70,6 +82,11 @@ export const CartItensUl = styled.ul`
         text-align: center;
     }
 
+    li button:hover{
+        transition: all 0.5s;
+        color: black;
+    }
+
     @media screen and (max-width: 400px){
         width: 285px;
     }
@@ -80,7 +97,7 @@ export const CartItensUl = styled.ul`
 export const NoItensCard = styled.div`
     display: flex;
     flex-direction: column;
-    width: 270px;
+    width: 300px;
     height: 20vh;
     align-items: center;
     justify-content: center;
