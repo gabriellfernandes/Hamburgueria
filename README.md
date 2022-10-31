@@ -4,6 +4,8 @@ itens, com validações. Na aplicação também há um carrinho de compras,
 sendo possível adicionar e remover itens do carrinho, e também possível 
 ver a soma de todos os itens.
 
+link: https://react-entrega-s1-hamburgueria-da-kenzie-gabriellfernandes.vercel.app/
+
 Visual do site:
 ![image](https://user-images.githubusercontent.com/96635752/199023887-4a9fdec7-cefc-4f63-a6d6-b30e25af36cb.png)
 
