@@ -1,4 +1,4 @@
-plicação Web feita em REACT JS que tem o intuito de criar um "Ecommerce" para uma hamburgueria, foi consumida uma API para listar os 
+Aplicação Web feita em REACT JS que tem o intuito de criar um "Ecommerce" para uma hamburgueria, foi consumida uma API para listar os 
 produtos, também foi inserido um campo de pesquisa para buscar pelos 
 itens, com validações. Na aplicação também há um carrinho de compras, 
 sendo possível adicionar e remover itens do carrinho, e também possível 
